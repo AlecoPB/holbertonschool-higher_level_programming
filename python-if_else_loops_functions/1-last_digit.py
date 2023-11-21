@@ -5,7 +5,7 @@ number = random.randint(-10000, 10000)
 dgt = str(number)[len(str(number))-1]
 #dgt = int(dgt)
 if number < 0: 
-    dgt = -1*dgt
+    dgt = -1*int(dgt)
 if int(dgt) > 5:
     indic = "and is greater than 5"
 elif int(dgt) == 0:

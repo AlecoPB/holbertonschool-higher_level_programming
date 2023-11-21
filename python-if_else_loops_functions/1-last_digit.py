@@ -14,5 +14,3 @@ if number < 0:
     print("Last digit of", number, "is", '-'+str(dgt), indic)
 else:
     print("Last digit of", number, "is", str(dgt), indic)
-  
-  

@@ -6,4 +6,4 @@ for i in range(1, 100):
         if i != 89:
             print("{}".format(i), end=", ")
         else:
-            print("{}".format(i), end=" ")
+            print("{}".format(i))

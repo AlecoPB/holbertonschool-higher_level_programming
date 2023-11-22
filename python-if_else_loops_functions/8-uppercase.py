@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def uppercase(c):
-    for i in c:
+    for i in len(c):
       if 97 <= ord(c[i]) <= 123:
         booly = True
       else:

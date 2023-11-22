@@ -5,5 +5,5 @@ def uppercase(c):
         booly = True
       else:
         booly = False
-      print("{}".format(chr(ord(c[i])-32)) if booly else "{}".format(c[i]), end='')
+      print("{}".format(chr(ord(c[i])-32)) if booly else c[i], end='')
     print()

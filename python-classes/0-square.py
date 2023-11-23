@@ -6,4 +6,4 @@ class Square:
     """
     This is class documentation
     """
-    pass #Ayuda :c
+    pass

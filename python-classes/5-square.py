@@ -26,7 +26,7 @@ class Square:
         if value < 0:
             raise ValueError('size must be >= 0')
         self.__size = value
-        
+
     def area(self):
         """
         Can you guess what this is?
@@ -38,10 +38,10 @@ class Square:
         Wowowow what is this?
         """
         side = self.__size
-        if side == 0:
-            print()
+        if side == 0:  
+          print()
         else:
-            for i in range(side):
-              for j in range(side):
-                print('#', end='')
+          for i in range(side):
+            for j in range(side):
+              print('#', end='')
             print()

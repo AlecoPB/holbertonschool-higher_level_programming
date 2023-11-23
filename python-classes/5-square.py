@@ -38,10 +38,10 @@ class Square:
         Wowowow what is this?
         """
         side = self.__size
-        if side != 0
+        if side != 0:
             for i in range(side):
               for j in range(side):
                 print('#', end='')
             print()
-        else 
+        else:
             print()

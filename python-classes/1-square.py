@@ -4,8 +4,7 @@ This is module documentation
 """
 class Square:
     """
-    This is class documentation Some gibberish Some gibberish Some gibberish Some gibberish Some gibberish Some gibberish 
-     Some gibberish Some gibberish Some gibberish Some gibberish
+    This is class documentation
     """
     def __init__(self, size):
-        self.__size=size
+        self.__size=10

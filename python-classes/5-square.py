@@ -40,4 +40,5 @@ class Square:
         side = self.__size
         for i in range(side):
           for j in range(side):
-            print('#')
+            print('#', end='')
+        print()

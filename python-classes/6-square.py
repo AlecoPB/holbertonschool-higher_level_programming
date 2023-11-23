@@ -60,11 +60,5 @@ class Square:
     if side == 0:  
       print()
     else:
-      for i in range(space_y): 
-        print()
-      for i in range(side):
-        for j in range(space_x):
-          print(" ", end='')
-        for j in range(side):
-          print('#', end='')
-        print()
+      print('\n' * space_y, end='')  # print newlines for the y position
+      print(('\n'.join([' ' * space_x + '#' * side for k in range(side)])))

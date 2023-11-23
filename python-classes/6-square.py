@@ -40,7 +40,7 @@ class Square:
       """
       This is a setter
       """
-      if not isinstance(value[0], int) or not isinstance(value[1], int) or value[0] < 0 or value [1] < 0:
+      if value[0] < 0 or value [1] < 0:
         raise TypeError('position must be a tuple of two positive integers')
       self.__position = value
         

@@ -6,8 +6,8 @@ class Square:
     """
     This is class documentation
     """
-    def __init__(self):
+    def __init__(self, size):
         """
         This is method documentation
         """
-        self.__size=10
+        self.__size=size

@@ -64,3 +64,8 @@ class Square:
         for i in range(side):
           print(" " * space_x, end='')
           print('#' * side)
+
+        for i in range(space_y): print()
+        for i in range(side):
+          print(" " * space_x, end='')
+          print('#' * side)

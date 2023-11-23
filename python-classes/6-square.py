@@ -60,12 +60,11 @@ class Square:
       if side == 0:  
         print()
       else:
-        for i in range(space_y): print()
+        for i in range(space_y): 
+          print()
         for i in range(side):
-          print(" " * space_x, end='')
-          print('#' * side)
-
-        for i in range(space_y): print()
-        for i in range(side):
-          print(" " * space_x, end='')
-          print('#' * side)
+          for j in range(space_x):
+            print(" ", end='')
+          for j in range(side):
+            print('#', end='')
+          print()

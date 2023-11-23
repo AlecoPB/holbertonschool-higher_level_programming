@@ -54,11 +54,10 @@ class Square:
     """
     Wowowow what is this?
     """
-    side = self.__size
-    space_x = self.__position[0]
-    space_y = self.__position[1]
-    if side == 0:  
-      print()
-    else:
-      print('\n' * space_y, end='')  # print newlines for the y position
-      print(('\n'.join([' ' * space_x + '#' * side for k in range(side)])))
+    if self.__size == 0:
+            print()
+        else:
+            for _ in range(self.__position[1]):
+                print()
+            for _ in range(self.__size):
+                print(" " * self.__position[0] + "#" * self.__size)

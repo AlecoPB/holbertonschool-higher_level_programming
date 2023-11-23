@@ -7,4 +7,4 @@ class Square:
     This is class documentation
     """
     def __init__(self, size):
-        self.__size=10
+        self.__size=size

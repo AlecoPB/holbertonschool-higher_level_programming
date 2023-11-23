@@ -3,11 +3,8 @@
 This is module documentation
 """
 class Square:
-    """
-    This is class documentation
-    """
+"""
+This is class documentation
+"""
     def __init__(self, size):
         self.__size=size
-        """
-        Just some local documentation
-        """

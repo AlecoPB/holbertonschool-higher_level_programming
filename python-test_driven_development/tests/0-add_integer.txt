@@ -36,4 +36,4 @@ TypeError: add_integer() missing 1 required positional argument: 'a'
 >>> add_integer(float('inf'), 0)
 Traceback (most recent call last):
 ...
-OverflowErr
+OverflowError: cannot convert float infinity to integer

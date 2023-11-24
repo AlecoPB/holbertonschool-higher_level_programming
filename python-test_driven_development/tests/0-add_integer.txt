@@ -13,6 +13,7 @@
 ...       b = int(b)
 ...   return a + b
 ...
+
 >>> add_integer(5, 3)
 8
 

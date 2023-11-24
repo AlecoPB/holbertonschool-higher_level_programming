@@ -6,24 +6,18 @@
 >>> add_integer(3)
 101
 
->>> add_integer(3)
-101
-
->>> add_integer(3, 'a')
+>>> addd_integer(3, "school")
 Traceback (most recent call last):
 ...
-'b must be an integer'
+TypeError: b must be an integer
 
->>> add_integer(3.14)
+>>> add_integer(3.5)
 101
 
->>> add_integer(3.14, 2.0)
-5
+>>> add_integer(3, 2.8)
+3
 
->>> add_integer(3, 2.0)
-5
-
->>> add_integer(3.7, "school")
+>>> add_integer('a', 3)
 Traceback (most recent call last):
 ...
-'b must be an integer'
+TypeError: a must be an integer

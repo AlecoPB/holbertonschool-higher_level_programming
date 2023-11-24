@@ -2,6 +2,8 @@
 """
 This is module documentation
 """
+
+
 def add_integer(a, b=98):
     """
     This is method documentation

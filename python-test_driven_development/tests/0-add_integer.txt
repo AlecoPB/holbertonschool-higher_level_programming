@@ -12,7 +12,9 @@ Now use it:
     101
 
     >>> add_integer(3, "school")
-    TypeError('b must be an integer')
+    Traceback (most recent call last):
+    ...
+    'b must be an integer'
 
     >>> add_integer(3.14)
     101
@@ -24,4 +26,6 @@ Now use it:
     5
 
     >>> add_integer(3.7, "school")
-    TypeError('b must be an integer')
+    Traceback (most recent call last):
+    ...
+    'b must be an integer'

@@ -40,7 +40,7 @@ TypeError: b must be an integer
 >>> add_integer(5, 3.5)
 8
 
->>>>>> add_integer(3.5, None)
+>>> add_integer(3.5, None)
 Traceback (most recent call last):
 ...
 TypeError: a must be an integer

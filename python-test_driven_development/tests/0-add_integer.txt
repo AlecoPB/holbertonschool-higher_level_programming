@@ -24,3 +24,6 @@ TypeError: a must be an integer
 
 >>> add_integer(3.4, 5.2)
 8
+
+>>> add_integer(-3.4, -1.2)
+4

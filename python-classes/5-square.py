@@ -2,6 +2,8 @@
 """
 This is module documentation
 """
+
+
 class Square:
     """
     This is class documentation
@@ -38,10 +40,10 @@ class Square:
         Wowowow what is this?
         """
         side = self.__size
-        if side == 0:  
-          print()
+        if side == 0:
+            print()
         else:
-          for i in range(side):
-            for j in range(side):
-              print('#', end='')
+            for i in range(side):
+                for j in range(side):
+                print('#', end='')
             print()

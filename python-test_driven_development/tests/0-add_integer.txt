@@ -1,6 +1,4 @@
-#!/usr/bin/python3
 >>> add_integer = __import__("0-add_integer").add_integer
-"""
 
 >>> add_integer(5, 3)
 8
@@ -41,5 +39,3 @@ TypeError: b must be an integer
 
 >>> add_integer(5, 3.5)
 8
-
-"""

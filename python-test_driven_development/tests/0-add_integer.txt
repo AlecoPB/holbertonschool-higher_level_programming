@@ -11,7 +11,7 @@
 ...       raise TypeError("b must be an integer")
 ...     else:
 ...       b = int(b)
-...   return a + 
+...   return a + b
 ...
 
 >>> add_integer(5, 3)

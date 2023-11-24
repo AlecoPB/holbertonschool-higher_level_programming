@@ -2,7 +2,9 @@
 """
 This is module documentation
 """
+
 class Square:
+    
     """
     This is class documentation
     """
@@ -10,4 +12,4 @@ class Square:
         """
         This is method documentation
         """
-        self.__size=size
+        self.__size = size

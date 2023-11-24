@@ -1,5 +1,11 @@
 #!/usr/bin/python
+"""
+This is module documentation
+"""
 def add_integer(a, b=98):
+    """
+    This is method documentation
+    """
     if not isinstance(a, int):
         if not isinstance(a, float):
             raise TypeError("a must be an integer")

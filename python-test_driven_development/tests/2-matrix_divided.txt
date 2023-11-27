@@ -30,7 +30,7 @@ Traceback (most recent call last):
 TypeError: matrix must be a matrix (list of lists) of integers/floats
 
 >>> matrix_divided(d_int_int, 3)
-[[0.33, 0.67, 1.0, 1.33], [1.33, 1.67, 2.0, 2.67]]
+[[0.33, 0.67, 1.0, 1.33], [1.67, 2.0, 2.33, 2.67]]
 
 >>> matrix_divided(d_int_int, 'a')
 Traceback (most recent call last):

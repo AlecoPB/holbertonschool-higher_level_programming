@@ -12,7 +12,7 @@
 
 >>> d_float_float = [s_float_matrix, [9.8, 7.5, 7.3, 3.1]]
 
->>> d_int_char = [s_int_matrix, s_ char_matrix]
+>>> d_int_char = [s_int_matrix, s_char_matrix]
 
 >>> d_int_lint = [s_int_matrix, [10, 11, 12, 13, 14]]
 

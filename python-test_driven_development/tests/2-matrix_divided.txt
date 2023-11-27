@@ -1,44 +1,59 @@
->>> add_integer = __import__('0-add_integer').add_integer
+>>> matrix_divided = __import__('2-matrix_divided.py).matrix_divided
 
->>> add_integer(3, 8)
-11
+>>> s_int_matrix = [1, 2, 3, 4]
 
->>> add_integer(3)
-101
+>>> s_char_matrix = [1, 2, 3, 'a']
 
->>> add_integer(3, "school")
+>>> s_float_matrix = [1.2, 3.4, 5.1, 2.5]
+
+>>> d_int_float = [s_int_matrix, s_float_matrix]
+
+>>> d_int_int = [s_int_matrix, [5, 6, 7, 8]]
+
+>>> d_float_float = [s_float_matrix, [9.8, 7.5, 7.3, 3.1]]
+
+>>> d_int_char = [s_int_matrix, s_ char_matrix]
+
+>>> d_int_lint = [s_int_matrix, [10, 11, 12, 13, 14]]
+
+>>> matrix_divided(s_int_matrix, 8)
 Traceback (most recent call last):
 ...
-TypeError: b must be an integer
+TypeError: matrix must be a matrix (list of lists) of integers/floats
 
->>> add_integer(3.5)
-101
+>>> matrix_divided(d_int_float, 3)
+[[0.33, 0.67, 1.0, 1.33], [0.4, 1.13, 1.7, 0.83]]
 
->>> add_integer(3, 2.8)
-5
-
->>> add_integer('a', 3)
+>>> matrix_divided(d_int_char, 3)
 Traceback (most recent call last):
 ...
-TypeError: a must be an integer
+TypeError: matrix must be a matrix (list of lists) of integers/floats
 
->>> add_integer(3.4, 5.2)
-8
+>>> matrix_divided(d_int_int, 3)
+[[0.33, 0.67, 1.0, 1.33], [1.33, 1.67, 2.0, 2.33]]
 
->>> add_integer(-3.4, -1.2)
--4
-
->>> add_integer()
+>>> matrix_divided(d_int_int, 'a')
 Traceback (most recent call last):
 ...
-TypeError: add_integer() missing 1 required positional argument: 'a'
+TypeError: div must be a number
 
->>> add_integer(float('inf'), 0)
+>>> matrix_divided(d_int_int, 0)
 Traceback (most recent call last):
 ...
-OverflowError: cannot convert float infinity to integer
+ZeroDivisionError: division by zero
 
->>> add_integer(float('nan'))
+>>> matrix_divided(d_int_int, float('inf'))
+[[0.0, 0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0]]
+
+>>> matrix_divided(d_int_int, float('nan'))
+[[nan, nan, nan, nan], [nan, nan, nan, nan]]
+
+>>> matrix_divided(d_int_lint, 3)
 Traceback (most recent call last):
 ...
-ValueError: cannot convert float NaN to integer
+ZeroDivisionError: Each row of the matrix must have the same size
+
+>>> matrix_divided(d_int_int)
+Traceback (most recent call last):
+...
+TypeError: matrix_divided() missing 1 required positional argument: 'div'

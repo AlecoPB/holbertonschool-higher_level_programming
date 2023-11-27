@@ -26,5 +26,5 @@ def matrix_divided(matrix, div):
             if len(matrix[i]) != len(matrix[i-1]):
                 raise TypeError("Each row of the matrix\
                       must have the same size")
-    return [[round(matrix[i][j]/div, 2) for j in range(len(matrix[i]))]\
+    return [[round(matrix[i][j]/div, 2) for j in range(len(matrix[i]))]
             for i in range(len(matrix))]

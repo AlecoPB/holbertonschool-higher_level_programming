@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def matrix_divided(matrix, div):
   for i in range(len(matrix)):
     if not isinstance(matrix[i], list):

@@ -6,7 +6,7 @@ a:
 b?
 <BLANKLINE>
 c.
-
+<BLANKLINE>
 
 >>> text_indentation(1)
 Traceback (most recent call last):

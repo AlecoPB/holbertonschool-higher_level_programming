@@ -1,3 +1,2 @@
-# List all databases
+-- Task: List all databases
 SHOW DATABASES;
-

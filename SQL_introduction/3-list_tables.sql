@@ -1,2 +1,2 @@
 --Task: list all the tables of a database in the server
-SHOW TABLES IN $db_name;
+SHOW TABLES *FROM db_name;

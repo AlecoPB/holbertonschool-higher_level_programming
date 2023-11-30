@@ -5,6 +5,7 @@ CREATE TABLE IF NOT EXISTS second_table(
   score INT
 );
 
+-- Insert the data
 INSERT INTO second_table (
   id, name, score
   ) VALUES(

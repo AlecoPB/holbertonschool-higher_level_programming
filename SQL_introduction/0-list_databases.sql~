@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#MySQL server loging details
+username="root"
+password="root"
+
+# List all databases
+
+mysql -u $root -p $root -e 'SHOW DATABASES;'
